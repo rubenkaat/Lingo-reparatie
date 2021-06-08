@@ -1,0 +1,77 @@
+body{
+	background-color: grey;
+}
+#Background-Container{
+	width: 700px;
+	height: 250px;
+	background-color: white;
+	margin: auto;
+	text-align: center;
+}
+#container-input{
+	padding-top: 30px;
+}
+#word{
+	margin: auto;
+	font size: 50px;
+}
+.Btn{
+	margin: auto;
+	height: 50px;
+	width: 100px;
+	border: 1px black solid;
+	border-radius: 8px;
+	background-color: navajowhite;
+	transition-duration: 0.4s;
+}
+.Btn:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: maroon;
+	color: white;
+}
+#wordContainer{
+	height: auto;
+	width: 700px;
+	margin: auto;
+	background-color: maroon;
+}
+#boxRow1{
+	width: 700px;
+	text-align: center;
+}
+#boxRow2{
+	width: 700px;
+	text-align: center;
+}
+#boxRow3{
+	width: 700px;
+	text-align: center;
+}
+#boxRow4{
+	width: 700px;
+	text-align: center;
+}
+#boxRow5{
+	width: 700px;
+	text-align: center;
+	padding-bottom: 7px;
+}
+.letterBox{
+	height: 1.30em;
+	width: 1.30em;
+	border: 1px black solid;
+	border-radius: 5px;
+	text-align: center;
+	display: inline-block;
+	font-size: 3.5em;
+	margin-top: 10px;
+	background-color: navajowhite;
+}
+#wordInput{
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	font-size: 30px;
+	width: 200px;
+	text-align: center;
+}
